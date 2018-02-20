@@ -1,0 +1,85 @@
+/* COLORS: 
+
+ dark brown: #500 
+
+ light brown: #d2baa7 
+
+ sandy: #ae9583 
+
+ beige: #ecd5c4 */
+
+/* MAIN ELEMENTS */
+
+body {
+    margin: 20px 0 20px 20px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px 0 15px;
+    font-size: 22px;
+}
+
+.card {
+    background-color: #d2baa7;
+    width: 300px;
+    box-shadow: 8px 8px 0 0 #ddd;
+    padding: 18px;
+}
+
+.card-description {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 12px;
+    width: 300px;
+    background-color: #ecd5c4;
+}
+
+img {
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+img:hover {
+    opacity: .9;
+}
+
+.facts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts-item {
+    font-weight: 700;
+    color: #500;
+}
+
+.source {
+    font-size: 10px;
+}
+
+.source a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #500;
+}
+
+.source a:hover {
+    color: #b22;
+}
+
+
+/* EXTRA FORMATTING */
+
+.italic {
+    font-style: italic;
+}
+
+.border {
+    border: 1px solid #ae9583;
+    border-radius: 4px;
+}
